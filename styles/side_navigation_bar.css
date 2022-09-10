@@ -1,0 +1,166 @@
+
+
+/******** Mobile Layout 480px and below ************/
+.sidenav {
+  height: 100%;
+  width: 0;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  background-color: white;
+  overflow-x: hidden;
+  transition: 0.5s;
+  padding-top: 60px;
+}
+
+.sidenav a {
+  padding: 8px 8px 8px 10px;
+  text-decoration: none;
+  font-size: 25px;
+  color: #818181;
+  display: block;
+  transition: 0.3s;
+}
+
+.sidenav a:hover {
+  color: rgba(0,0,0,0.9);
+}
+
+.sidenav .closebtn {
+  position: absolute;
+  top: 0;
+  right: 25px;
+  font-size: 36px;
+  margin-left: 50px;
+}
+
+
+  .sidenav {padding-top: 15px;}
+  .sidenav a {font-size: 18px;}
+
+.three_line_button{
+   position:absolute;
+   top:1px;
+   left:10px;
+   display:block;
+}
+
+.user_profile_box{
+   height:50px;
+   width:100%;
+   float:left;
+}
+
+/********* Tablet Layout 481px to max of 768px ********/
+@media only screen and (min-width:481px){
+
+.sidenav {
+  height: 100%;
+  width: 0;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  background-color: white;
+  overflow-x: hidden;
+  transition: 0.5s;
+  padding-top: 60px;
+}
+
+.sidenav a {
+  padding: 8px 8px 8px 10px;
+  text-decoration: none;
+  font-size: 25px;
+  color: #818181;
+  display: block;
+  transition: 0.3s;
+}
+
+.sidenav a:hover {
+  color: rgba(0,0,0,0.9);
+}
+
+.sidenav .closebtn {
+  position: absolute;
+  top: 0;
+  right: 25px;
+  font-size: 36px;
+  margin-left: 50px;
+}
+
+
+  .sidenav {padding-top: 15px;}
+  .sidenav a {font-size: 18px;}
+  
+  
+  .three_line_button{
+   position:absolute;
+   top:1px;
+   left:10px;
+   display:block;
+}
+  
+  
+}
+
+/********* Desktop Layout 769px to max of 1232px ********/
+
+@media only screen and (min-width: 769px){
+
+.sidenav {
+  height: 100%;
+  width: 0;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  background-color: white;
+  overflow-x: hidden;
+  transition: 0.5s;
+  padding-top: 60px;
+}
+
+.sidenav a {
+  padding: 8px 8px 8px 10px;
+  text-decoration: none;
+  font-size: 25px;
+  color: #818181;
+  display: block;
+  transition: 0.3s;
+}
+
+.sidenav a:hover {
+  color: rgba(0,0,0,0.9);
+}
+
+.sidenav .closebtn {
+  position: absolute;
+  top: 0;
+  right: 25px;
+  font-size: 36px;
+  margin-left: 50px;
+}
+
+
+  .sidenav {padding-top: 15px;}
+  .sidenav a {font-size: 18px;}
+   
+   
+   .three_line_button{
+   position:absolute;
+   top:1px;
+   left:5px;
+   display:block;
+}
+   
+   
+}
+
+
+
+
+  
+  
+  
+  

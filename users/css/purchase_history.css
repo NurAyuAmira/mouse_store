@@ -1,0 +1,44 @@
+
+.purchase_history_container{
+    width:100%;
+    float:left;
+}
+.border_bottom{
+   border-bottom:1px solid rgba(0,0,0,0.1);
+   margin:10px 0;
+}
+.purchase_history_container table{
+    width:100%;
+    float:left;
+    text-align:left;
+}
+.purchase_history_container table td{
+    vertical-align:top;
+}
+.image_title_box{
+    width:100%;
+    float:left;
+}
+.purchase_image{
+    width:35%;
+    float:left;
+}
+.purchase_name{
+    width:65%;
+    float:left;
+}
+.purchase_name p{
+    margin:0 5px;
+}
+.purchase_name a{
+    text-decoration:none;
+    color:rgba(0,0,0,0.8);
+}
+.purchase_name a:hover{
+    color:black;
+}
+
+
+
+
+

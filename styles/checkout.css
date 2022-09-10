@@ -1,0 +1,336 @@
+
+
+.checkout_cotainer{
+  width:100%;
+  float:left;
+  background:rgba(0,0,0,0.1);
+}
+.checkout_header{
+  width:100%;
+  float:left;
+  height:90px;
+  background:navy;
+  color:white;
+}
+.checkout_header_box{
+  padding:15px;
+}
+.checkout_left{
+  width:35%;
+  float:left;
+  //background:green;
+}
+.checkout_left_box{
+  padding:15px;
+}
+.checkout_left_product_box{
+  width:100%;
+  float:left;
+  margin:5px 0;
+}
+.checkout_left_product_box img{
+  width:100px;
+  height:70px;
+  float:left;
+  padding:5px;
+}
+.checkout_left_title{
+  margin:5px 0;
+}
+.checkout_left_item_border_bottom{
+  border-bottom:0.01px solid rgba(0,0,0,0.2);
+  margin:5px 0;
+}
+.checkout_right{
+  width:65%;
+  float:left;
+  //background:gray;
+}
+.checkout_right_box{
+  padding:15px;
+  margin-left:10px;
+}
+.checkout_total_price{
+  width:100%;
+  float:left;
+  background:rgba(86, 145, 131, 1);
+  color:green;
+  text-align:center;
+  height:40px;
+  line-height:40px;
+  margin-bottom:10px;
+}
+.payment_method_container{
+  width:100%;
+  float:left;
+  border:1px solid rgba(0,0,0,0.2);
+  margin-bottom:15px;
+}
+.payment_method_box{
+  width:95%;
+  float:left;
+  padding:15px;
+}
+.payment_method_header{
+  width:100%;
+  float:left;
+  height:30px;
+  line-height:30px;
+}
+.payment_method_box input[type=radio]{
+  width:18px;
+  height:18px;
+  line-height:30px;
+  margin:0 10px 0 0;
+}
+#paypal_radio{
+  position:relative;
+  top:-5px;
+}
+#offline_payment_radio{
+  position:relative;
+  top:3px;
+}
+.payment_gateway_box{
+  padding:20px 20px 20px 0;
+}
+.paypal_text_box{
+  width:100%;
+  float:left;
+}
+.paypal__text{
+  width:75%;
+  float:left;
+}
+.paypal__lock{
+  width:25%;
+  float:left;
+  font-size:14px;
+  text-align:right;
+  position:relative;
+  top:1px;
+  color:gray;
+}
+.payment_offline_form_box{
+  width:100%;
+  float:left;
+}
+.payment_offline_btn_box{
+  text-align:center;
+  margin:10px 0;
+}
+.payment_offline_btn_box button{
+  border:0;
+  background:rgba(17, 103, 143, 0.9);
+  color:white;
+  height:40px;
+  padding:2px 17px;
+  font-size:16px;
+}
+.payment_offline_btn_box button:hover{
+  background:rgba(17, 103, 143, 1);
+}
+.checkout_background_loading{
+  position:absolute;
+  width:100%;
+  height:800px;
+  background:rgba(0,0,0,0.05);
+  top:0;
+  left:0;
+  z-index:1;
+  text-align:center;
+  display:none;
+}
+.checkout_background_loading img{
+  display:inline-block;
+  position:relative;
+  top:30%;
+  width:80px;
+  height:80px;
+} 
+.load_checkout_message{
+  width:100%;
+  text-align:center;
+  margin-bottom:10px;
+}
+.load_checkout_message div{
+  display:inline-block;
+  width:98%;
+  height:40px;
+  line-height:40px;
+  //background:rgba(255, 0, 0, 0.8);
+  //color:white;
+  position:relative;
+}
+.load_checkout_message i.fa-close{
+  position:absolute;
+  top:2px;
+  right:5px;
+  padding:2px;
+  cursor:pointer;
+}
+.error_message{
+  background:rgba(255, 0, 0, 0.8);
+  color:white;
+}
+.success_message{
+  background:rgba(119,217,189,0.7);
+  color:green;
+}
+.load_billing_address{
+  width:100%;
+  text-align:center;
+  margin-bottom:30px;
+}
+.billing_address_box, .billing_address_form_box{
+  width:94.5%;
+  display:inline-block;
+  border:1px solid rgba(0,0,0,0.2);
+  padding:15px;
+  text-align:left;
+}
+.billing_address_header{
+  width:100%;
+  float:left;
+}
+.billing_address_header h3{
+  width:70%;
+  float:left;
+}
+.billing_address_header i{
+  width:30%;
+  float:left;
+  text-align:right;
+  cursor:pointer;
+}
+.billing_address_border_header{
+  width:100%;
+  float:left;
+  border-bottom:1px solid rgba(0,0,0,0.1);
+  margin:10px 0;
+}
+.billing_address_content{
+  width:100%;
+  float:left;
+  margin:10px 0;
+}
+.additional_info_box{
+  text-align:center;
+  width:100%;
+  float:left;
+  margin:15px 0 3px 0;
+}
+#checkout_additional_editor{
+  border:1px solid rgba(0,0,0,0.1);
+  width:98%;
+  height:40px;
+  padding:10px;
+  margin-top:10px;
+}
+/* Edit Billing address */
+.billing_address_form_box input[type=text]{
+  width:60%;
+  padding:10px;
+  margin:5px 0;
+  border:1px solid rgba(0,0,0,0.1);
+}
+#edit_user_address{
+  width:60.2%;
+  padding:10px;
+  height:50px;
+  margin:3px 0;
+  border:1px solid rgba(0,0,0,0.1);
+}
+.edit_billing_address_btn_box{
+  width:100%;
+  float:left;
+  text-align:center;
+}
+.edit_billing_address_btn_box button{
+  height:40px;
+  padding:2px 17px;
+  font-size:16px;
+  margin:15px 5px 0 5px;
+}
+#update_billing_address_btn{
+  border:0;
+  background:rgba(3,146, 171, 0.9);
+  color:white;
+}
+#update_billing_address_btn:hover{
+  background:rgba(3,146, 171, 1);
+}
+
+#cancel_billing_address_btn{
+  border:0;
+  background:rgba(0,0,0, 0.1);
+  color:gray;
+}
+#cancel_billing_address_btn:hover{
+  background:rgba(0,0,0, 0.2);
+}
+/* Payment gateway successful */
+.payment_successful_container{
+  width:100%;
+  float:left;
+  text-align:center;
+}
+.payment_successful_box{
+  width:95%;
+  border:1px solid rgba(0,0,0,0.2);
+  margin:15px 0 0 0;
+  padding:10px;
+  text-align:left;
+  display:inline-block;
+}
+.payment_successful_left{
+  width:20%;
+  float:left;
+}
+.payment_successful_left_box{
+  padding:0 15px 0 0;
+}
+.payment_successful_right{
+  width:80%;
+  float:left;
+}
+.payment_successful_right_box{
+  margin: 0 0 0 40px;
+}
+.thank_you_box{
+  background:rgba(119,217,189,0.7);
+  color:green;
+  height:30px;
+  line-height:30px;
+  padding:10px;
+}
+.checkout_invoice_box{
+  background:rgba(119,217,189,1);
+  color:green;
+  height:40px;
+  line-height:40px;
+  width:150px;
+  padding:0 0 0 10px;
+  margin:30px 0 10px 0;
+  font-size:20px;
+  position:relative;
+}
+.checkout_invoice_box a{
+  color:green;
+}
+.checkout_invoice_box i{
+  position:absolute;
+  right:1px;
+  background: rgba(81,201,147,1);
+  height:40px;
+  line-height:40px;
+  padding: 0 10px 0 10px;
+  cursor:pointer;
+}
+.checkout_invoice_box i:hover{
+  background: rgba(81,201,147,0.7);
+}
+.payment_successful_right_box p{
+  margin:5px 0;
+}
+
